@@ -1,0 +1,5 @@
+notes
+
+deploy attempt gear
+"deploy2": "ng build -prod -sm -ec -bh axe-and-sirens-new-build-deploy && gh-pages -d dist",
+"deploy": "ng build -sm -ec -bh /repo name/ & ngh --silent=false",
