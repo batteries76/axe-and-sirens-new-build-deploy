@@ -4,10 +4,14 @@ import { ProductService } from './product.service';
 import { Subscription } from 'rxjs/Subscription';
 import { Product } from './product';
 
+//import appTemplate  from 'src/app/app.component.html';
+
 @Component({
+//  moduleId: module.id,
   selector: 'my-app',
-  templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css']
+//  template: appTemplate,
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
 
