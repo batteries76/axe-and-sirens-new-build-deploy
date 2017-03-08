@@ -9,7 +9,7 @@ import { ContactMessage }           from './contact-message'
 @Component({
   selector: 'my-contact-form',
   templateUrl: 'contact-form.component.html',
-  styleUrls: [ '../../stylesheets/styles.css' ]
+  styleUrls: [ 'styles/styles.css' ]
 })
 export class ContactFormComponent {
 

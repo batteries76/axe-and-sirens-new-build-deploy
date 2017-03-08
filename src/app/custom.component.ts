@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-custom',
   templateUrl: 'custom.component.html',
-  styleUrls: [ '../../stylesheets/styles.css' ]
+  styleUrls: [ 'styles/styles.css' ]
 })
 export class CustomComponent {
 

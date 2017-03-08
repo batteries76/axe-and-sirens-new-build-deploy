@@ -4,7 +4,7 @@ import { Product } from './product';
 @Component({
   selector: 'my-product-display',
   templateUrl: 'product-display.component.html',
-  styleUrls: [ '../../stylesheets/styles.css' ]
+  styleUrls: [ 'styles/styles.css' ]
 })
 export class ProductDisplayComponent {
 
