@@ -4,10 +4,10 @@ import { Product } from './product';
 @Component({
   selector: 'my-checkout-detail',
   templateUrl: 'checkout-detail.component.html',
-  styleUrls: [ './styles/styles.css' ]
+  styleUrls: [ './styles.css' ]
 })
 export class CheckoutDetailComponent {
 
   @Input() product: Product;
-
+ 
 }

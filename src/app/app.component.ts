@@ -9,13 +9,13 @@ import { Product } from './product';
 @Component({
 //  moduleId: module.id,
   selector: 'my-app',
-//  template: appTemplate,
+//  template: appTemplate, 
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
 
-  bannerHeader = "assets/final-header.png";   
+  bannerHeader = "assets/final-header.png";
 
   title = 'Axe and Sirens';
 
