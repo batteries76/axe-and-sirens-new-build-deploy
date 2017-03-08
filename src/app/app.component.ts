@@ -15,7 +15,7 @@ import { Product } from './product';
 })
 export class AppComponent {
 
-  bannerHeader = "./assets/images/final-header.png";
+  bannerHeader = "assets/final-header.png";   
 
   title = 'Axe and Sirens';
 
