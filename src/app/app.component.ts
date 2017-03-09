@@ -9,8 +9,8 @@ import { Product } from './product';
 @Component({
 //  moduleId: module.id,
   selector: 'my-app',
-//  template: appTemplate, 
-  templateUrl: './app.component.html',
+//  template: appTemplate,
+  template: require('./app.component.html'),
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
